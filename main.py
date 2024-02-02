@@ -10,9 +10,16 @@ while True:
     print(f'Bovendruk: {rr_syst}')
 
 
+
+
+
     # Verwerking:
     def behandeling():
         pass
+
+
+
+
 
 
 
