@@ -1,6 +1,6 @@
 # # Toetsgroep AI
 # # Bloeddruk behandeling
-
+print()
 while True:
     
     # Input: 
@@ -16,8 +16,7 @@ while True:
 
 
 
-
     # Output:
-    13medicatie_lijst = behandeling()
+    medicatie_lijst = behandeling()
     print(f'Nieuwe medicatie lijst: {medicatie_lijst}')
-    
+    print('   ----------------', end="\n\n")
