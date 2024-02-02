@@ -1,6 +1,6 @@
 # # Toetsgroep AI
 # # Bloeddruk behandeling
-print()
+print('----------------------------------------------------------------')
 medicatie_lijst = ['hydrochloortiazide', 'enalapril', 'amlodipine']
 while True:
     
@@ -18,4 +18,4 @@ while True:
     # Output:
     medicatie_lijst = behandeling()
     print(f'Nieuwe medicatie lijst: {medicatie_lijst}')
-    print('   ----------------', end="\n\n")
+    print('----------------------------------------------------------------', end="\n\n")
