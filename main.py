@@ -2,8 +2,8 @@
 # # Bloeddruk behandeling
 print('----------------------------------------------------------------')
 medicatie_lijst = ['hydrochloortiazide', 'enalapril', 'amlodipine']
+
 while True:
-    
     # Input: 
     rr_syst = int(input('Wat is de systolische druk? '))
     print(f'Oude medicatie lijst: {medicatie_lijst}')
