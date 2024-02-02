@@ -9,7 +9,6 @@ while True:
     print(f'Oude medicatie lijst: {medicatie_lijst}')
     print(f'Bovendruk: {rr_syst}')
 
-
     # Verwerking:
     def behandeling():
         pass
