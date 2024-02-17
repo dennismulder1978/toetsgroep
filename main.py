@@ -11,7 +11,16 @@ while True:
 
 
     # Verwerking:
-
+    def behandeling(med_lijst, bovendruk):
+        if (bovendruk > 140):
+            print('\tToevoegen van metoprolol.')
+            med_lijst.append('metoprolol')
+        elif (bovendruk < 105):
+            print('\tVerwijderen van laatste medicijn.')
+            med_lijst.pop()
+        else:
+            print('\tGeen aanpassing nodig.')
+        return med_lijst
 
 
     # Uitkomst:
