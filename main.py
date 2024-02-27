@@ -6,7 +6,7 @@ medicatie_lijst = ['hydrochloortiazide', 'enalapril', 'amlodipine']
 while True:
     # Gegevens: 
     rr_syst = int(input('Wat is de systolische druk? '))
-    print(f'\tOude medicatie lijst: {medicatie_lijst}')
+    print(f'\tHuidige medicatie lijst: {medicatie_lijst}')
     print(f'\tBovendruk: {rr_syst}')
 
 
