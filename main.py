@@ -15,9 +15,12 @@ while True:
         if (bovendruk > 140): 
             print('\tToevoegen van metoprolol.')
             med_lijst.append('metoprolol')
-        elif (bovendruk < 105):
-            print('\tVerwijderen van laatste medicijn.')
+        elif (bovendruk < 105) & (len(med_lijst)>= 1):
+            print('\tVerwijderen van laatste medicijn.')55
+            
             med_lijst.pop()
+        elif (bovendruk < 105) & (len(med_lijst)==0):
+            print('Ambulance!!!!')
         else:
             print('\tGeen aanpassing nodig.')
         return med_lijst
